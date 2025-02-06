@@ -4,7 +4,7 @@ El proyecto Books Nest nos muestra cómo renderizar distintas páginas usando pa
 
 ![url-google.png](url-google.png)
 
-Partes de la imagen:
+Partes de la imagen de arriba:
 - El subdominio es meet.
 - El dominio es google.com
 - A partir de / y todo lo que sigue hasta el símbolo ? es el path.
