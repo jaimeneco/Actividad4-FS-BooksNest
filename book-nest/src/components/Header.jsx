@@ -1,32 +1,19 @@
-//Para usar este Header, tenemos que leer los Query Params
-export const Header = ({children}) => {
+import DarkMode from "./DarkMode";
+
+const Header = () => {
     return ( 
-      <header>
-        {children}
-        <picture>
-        <img src="./src/img/logo-web-title.png" alt="logo-title" />
-        </picture>
+        <header className="Header">
+            <a href="/home"><img className= "Logo"src="./src/img/logo-web-title.png" alt="Logo Book Nest" /></a>
+            <nav className="Nav">
+                <ul>
+                    <li><a href="/books">Explora</a></li>
+                    <li><a href="/MyBooks">Mis libros</a></li>
+                    <li><a href="/users">Registro</a></li>
+                </ul>
+            </nav>
+            <DarkMode />
+        </header>
+    );
+}
 
-        <ul>
-          <li className="Footer-listItem"><a href="./?page=home">Buscador</a></li>
-          <li className="Footer-listItem"><a href="./?page=tyc">Mis libros</a></li>
-          <li className="Footer-listItem"><a href="./?page=contact">Mis reservas</a></li>
-        </ul>
-      </header>
-  );
-  }
-
-
-// //Para usar este Header, tenemos que leer el pathName
-//   export const Header2 = ({children}) => {
-//     return ( 
-//       <header>
-//         {children}
-//         <ul>
-//           <li><a href="./home">Home</a></li>
-//           <li><a href="./nosotros">Nosotros</a></li>
-//           <li><a href="./contact">Contacto</a></li>
-//         </ul>
-//       </header>
-//      );
-//   }
+export default Header;

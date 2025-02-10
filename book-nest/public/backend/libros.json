@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "title": "1984",
+      "image": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Cien años de soledad",
+      "image": "https://m.media-amazon.com/images/I/81aA7hEEykL.jpg"
+    },
+    {
+      "id": 3,
+      "title": "El señor de los anillos",
+      "image": "https://m.media-amazon.com/images/I/91zbi9M+mKL.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Orgullo y prejuicio",
+      "image": "https://m.media-amazon.com/images/I/61wAZk6G8mL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Crimen y castigo",
+      "image": "https://m.media-amazon.com/images/I/713hTReVysL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Matar a un ruiseñor",
+      "image": "https://m.media-amazon.com/images/I/81OthjkJBuL.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Don Quijote de la Mancha",
+      "image": "https://m.media-amazon.com/images/I/71kdJikvR4L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Ulises",
+      "image": "https://m.media-amazon.com/images/I/91G1mqR54dS._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Rayuela",
+      "image": "https://m.media-amazon.com/images/I/81t2CVWEsUL.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Los miserables",
+      "image": "https://m.media-amazon.com/images/I/811H9ZY231L._UF1000,1000_QL80_.jpg"
+    }
+  ]
